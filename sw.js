@@ -1,9 +1,9 @@
 /* Clavis — service worker: app tetap bisa dibuka tanpa internet.
    Naikkan VERSI setiap kali file app berubah supaya perangkat mengambil versi terbaru. */
-const VERSI = 'clavis-v1';
+const VERSI = 'clavis-v2';
 const SHELL = [
   './', 'index.html', 'manifest.webmanifest', 'css/app.css?v=1', 'js/app.js',
-  'js/util.js', 'js/cite.js', 'js/store.js', 'js/config.js', 'js/google.js', 'js/sync.js', 'js/doc.js', 'js/export.js', 'js/ofa.js', 'js/ui.js',
+  'js/util.js', 'js/cite.js', 'js/store.js', 'js/config.js', 'js/google.js', 'js/sync.js', 'js/doc.js', 'js/export.js', 'js/ofa.js', 'js/dilan.js', 'js/ui.js',
   'js/views/meja.js', 'js/views/ide.js', 'js/views/draft.js', 'js/views/pustaka.js', 'js/views/proyek.js', 'js/views/kalender.js', 'js/views/pengaturan.js',
   'icons/icon-192.png', 'icons/icon-512.png'
 ];
